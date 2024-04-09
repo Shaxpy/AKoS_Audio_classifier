@@ -3,6 +3,7 @@
 
 - Submitted by Shashwat Pandey (spande2s), Talha Riyaz Shaikh (tshaik2s)
 
+- Source : https://www.akos-projekt.de/
 
 The Acoustic Weld Inspection Project (AKoS) enhances weld seam quality assurance for safety-critical components using innovative machine learning, particularly autoencoders. It addresses limitations in traditional methods like visual examination and ultrasonic testing. AKoS leverages acoustic data to develop a robust system for accurate anomaly detection in weld seams. It aims to develop a non-destructive testing (NDT) method for welding seams in safety-critical components.
 
@@ -44,16 +45,23 @@ The proposed solution utilizes autoencoders, a neural network architecture tailo
    ![Results](AKOS_result.png)
 
 
-## Further Investigations
+7. **Further Investigations**
 
-Despite the success demonstrated by the autoencoder, with accuracy of **95.83%** the report suggests avenues for further investigations. For example in different microphones other than  "**Microphone Gefell 1 = MK301, Amplification "32**" having different frequency than 96khz. Also, these include an extended analysis of pore distribution, exploration of audible cues from pores, and the application of existing techniques for pore recognition. These investigations aim to enhance the model's capabilities for a more comprehensive weld inspection.
+- Despite achieving a **95.83%** accuracy, further investigations are suggested.
+- These include exploring different microphones and frequencies.
+- Extended analysis of pore distribution and audible cues from pores is recommended.
+- Applying existing techniques for pore recognition can enhance the model's capabilities.
+- These investigations aim to improve weld inspection comprehensively.
 
-## Conclusion
+### Conclusion
 
-In conclusion, the Acoustic Weld Inspection Project introduces a novel approach to weld seam inspection. By leveraging autoencoders and advanced machine learning techniques, the project demonstrates the potential for significantly improving defect detection in safety-critical components. Ongoing research and investigations will contribute to refining the proposed approach and establishing it as a reliable tool for quality assurance in welding applications.This project, utilizing autoencoders, shows promising results for detecting defects in weld seams. The developed solution offers a reliable method for quality assurance in safety-critical components. Ongoing research and investigations will contribute to refining and enhancing the proposed approach for more robust weld inspection.
+- The Acoustic Weld Inspection Project uses autoencoders and advanced machine learning to improve weld seam inspection.
+- Ongoing research aims to establish it as a reliable tool for quality assurance in welding applications.
+- The project shows promising results for defect detection in weld seams, offering a reliable method for safety-critical components.
+- Further refinement and enhancement of the approach are underway for more robust weld inspection.
 
-## References: 
-These are the references and where we utilized them
+### References: 
+- Source : https://www.akos-projekt.de/
 1. https://github.com/aldente0630/sound-anomaly-detection-with-autoencoders/tree/main - 
     - We got the basic idea behind this anomaly detection from here. 
     - We also tried to understand their feature extraction also which was very helpful for the purpose of this project
