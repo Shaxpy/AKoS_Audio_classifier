@@ -1,7 +1,7 @@
 # Neural Networks : WS23/24 Project
 ### Introduction : The Acoustic Weld Inspection Project (AKoS) 
 
-- Submitted by Shashwat Pandey (spande2s), Talha Riyaz Shaikh (tshaik2s)
+- Submitted by Shashwat Pandey and Talha Riyaz Shaikh
 
 - Source : https://www.akos-projekt.de/
 
