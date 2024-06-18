@@ -1,7 +1,7 @@
 # Neural Networks : WS23/24 Project
 ### Introduction : The Acoustic Weld Inspection Project (AKoS) 
 
-- Submitted by Shashwat Pandey and Talha Riyaz Shaikh
+- Submitted by Shashwat Pandey (spande2s), Talha Riyaz Shaikh (tshaik2s)
 
 - Source : https://www.akos-projekt.de/
 
@@ -9,7 +9,8 @@ The Acoustic Weld Inspection Project (AKoS) enhances weld seam quality assurance
 
 ## Solution Overview
 
-The proposed solution leverages autoencoders, a type of neural network designed for unsupervised learning, to encapsulate crucial characteristics within acoustic signals associated with normal weld seams in AKoS. Autoencoders consist of an encoder and a decoder, with the primary objective of learning a compressed representation of input data. The workflow involves:
+The proposed solution leverages autoencoders, a type of neural network designed for unsupervised learning. Autoencoders consist of an encoder and a decoder, with the primary objective of learning a compressed representation of input data. In the context of AKoS, this compressed representation captures essential features of acoustic signals associated with normal weld seams
+The proposed solution utilizes autoencoders, a neural network architecture tailored for unsupervised learning, to encapsulate crucial characteristics within acoustic signals associated with normal weld seams in AKoS. The workflow involves:
 
 1. **Data Understanding:**
    - Analyzing the frequency representation of acoustic signals through Power and Mel spectrograms for only the files associated with "**Microphone Gefell 1 = MK301, Amplification "32**"
